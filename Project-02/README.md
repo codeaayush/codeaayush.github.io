@@ -50,7 +50,7 @@ Dillinger uses a number of open source projects to work properly:
 * [git add . ] - In this the all the files are now commit , before this if we use git status it shows it is untrack file.Now the file is in the status area of a git.
 * [git coomit -m "Message"] - In this the file is in commit section and we dont apply git reset in it.
 * [git reset] - It is to come back at the untrack path after the add, if we want to do ,it will again a untrack file and it can only be done after add not after commit.
-* [git push] - It is used to push the file when we can made changes in it.In this we can give back our new data to a github repository.
+* [git push origin master] - It is used to push the file when we can made changes in it.In this we can give back our new data to a github repository.
 * [git pull] - It is used when the one time the person can access the data by clone then after it can be acess by pull command.The pull command is used to access the data from github repository.
 * [git clone] - It is used when the new person can access the data then first he will clone the data, after that he will push the file and after he will only use pull command.
 

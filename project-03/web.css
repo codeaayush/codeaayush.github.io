@@ -1,0 +1,60 @@
+*{
+    font-size:16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image{
+    margin-top:100px;
+    height:200px;
+    width:200px;
+}
+.tag{
+    text-align: center;
+}
+.img-logo {
+    margin: 0 auto;
+    display:block;
+}
+.jumbotron {
+    margin-top: 100px;
+}
+.box{
+    min-height:400px;
+    background-color: #ccc;;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+.course-title {
+    color: #ffffff;
+    padding: 15px;
+    background-color: #222222;
+    font-size: 24px;
+}
+.text-center {
+    text-align: center;
+}
+.col-img {
+    width: 100%;
+    height: 200px;
+}
+.footer .text-muted {
+    text-align: center;
+    color: white;
+    /* margin-top: 30px; */
+    font-size: 20px;
+    font-weight: initial;
+}
+.footer {
+    margin-top: 50px;
+    color: #ffffff;
+    /* margin-bottom: 30px; */
+    background-color: #222222;
+    height: 60px;
+}
+.footer .text-muted {
+    text-align: center;
+    color: white;
+    /* margin-top: 30px; */
+    font-size: 20px;
+    font-weight: initial;
+}
