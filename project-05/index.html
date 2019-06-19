@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Form of Admmision</title>
+    <style>
+        body{
+            font-size: 25px;
+            font-family:'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body >
+    <form onsubmit="handleForm()">
+    <fieldset>
+        <legend>Registration Form</legend>
+        <table width=100%  height=800px>
+            <tr>
+                <td width=50% align="right">Name :</td>
+                <td width=50% align="left"><input type="text" id="name"/></td>
+            </tr>
+            <tr>
+                <td width=50% align="right">class :</td>
+                <td width=50% align="left"> 
+                 <select id="class">
+                <option value="1">class 1</option>
+                <option>class 2</option>
+                <option>class 3</option>
+                <option>class 4</option>
+                <option>class 4</option>
+                <option>class 5</option>
+                <option>class 6</option>
+                <option>class 7</option>
+                <option>class 8</option>
+                <option>class 9</option>
+                <option>class 10</option>
+            </select> 
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" align="right">Password :</td>
+                <td width="50%" align="left"><input type="password" id="password" required/></td>
+            </tr>
+            <tr>
+                <td width="50%" align="right">Gender :</td>
+                <td width="50%" align="left"><input type="radio" name="G" />MALE <input type="radio" name="G" required/>FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td width=50% align="right">Emails :</td>
+                <td width=50% align="left"><input type="email"id="email" required/></td>
+            </tr>
+            <tr>
+                <td width=50% align="right">Date Of Birth :</td>
+                <td width=50% align="left"><input type="date" id="date"required/></td>
+            </tr>
+            <tr>
+                <td width=50% align="right">Address :</td>
+                <td width=50% align="left"><textarea rows="3" col="10" id="address" required></textarea> </td>
+            </tr>
+            <tr>
+                <td width=50% align="right">Extra Skills :</td>
+                <td width=50% align="left">
+                    <select  id="skill">
+                        <option value="Gaming">Gaming</option>
+                        <option value="programming">programming</option>
+                        <option value="Exercises">Exercises</option>
+                    </select></td>
+            </tr>
+            <tr>
+                    <td width=50% align="right"><input type="reset" value="cancel"id="reset"></td>
+                    <td width=50% align="left"> <input type="submit" value="submit" id="submit"> </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+
+</body>
+
+<script src="./web.js" ></script>
+
+</html>
